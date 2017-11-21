@@ -489,7 +489,7 @@ compile_xrdp_interactive()
   rm README.Debian
   rm README.source
   cp ../COPYING copyright # use the xrdp copyright file
-  cp ../readme.txt README # use the xrdp readme.txt as the README file
+  cp ../README.md README # use the xrdp readme.txt as the README file
   cp "$BASEDIR/debian/postinst" postinst # postinst to create xrdp init.d defaults
   cp "$BASEDIR/debian/control" control # use a generic control file
   cp "$BASEDIR/debian/prerm" prerm # pre-removal script
@@ -531,7 +531,7 @@ compile_xrdp_noninteractive()
   rm README.Debian
   rm README.source
   cp ../COPYING copyright # use the xrdp copyright file
-  cp ../readme.txt README # use the xrdp readme.txt as the README file
+  cp ../README.md README # use the xrdp readme.txt as the README file
   cp "$BASEDIR/debian/postinst" postinst # postinst to create xrdp init.d defaults
   cp "$BASEDIR/debian/control" control # use a generic control file
   cp "$BASEDIR/debian/prerm" prerm # pre-removal script
